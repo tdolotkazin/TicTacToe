@@ -1,4 +1,5 @@
 import Foundation
+import TicTacToeAI
 
 class TicTacToeViewModel: ObservableObject {
     @Published var board = Array(repeating: "", count: 9)

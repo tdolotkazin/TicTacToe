@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C85D8B8C2E129BBB00BC1829 /* TicTacToeAI in Frameworks */ = {isa = PBXBuildFile; productRef = C85D8B8B2E129BBB00BC1829 /* TicTacToeAI */; };
+		C85D8B9A2E129BF000BC1829 /* TicTacToeAI in Frameworks */ = {isa = PBXBuildFile; productRef = C85D8B992E129BF000BC1829 /* TicTacToeAI */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		C80425882DECBD0F003C4C58 /* TicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -16,6 +21,11 @@
 			path = TicTacToe;
 			sourceTree = "<group>";
 		};
+		C85D8B872E129B8500BC1829 /* Modules */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Modules;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -23,6 +33,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C85D8B8C2E129BBB00BC1829 /* TicTacToeAI in Frameworks */,
+				C85D8B9A2E129BF000BC1829 /* TicTacToeAI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,6 +44,7 @@
 		C804257F2DECBD0F003C4C58 = {
 			isa = PBXGroup;
 			children = (
+				C85D8B872E129B8500BC1829 /* Modules */,
 				C804258A2DECBD0F003C4C58 /* TicTacToe */,
 				C80425892DECBD0F003C4C58 /* Products */,
 			);
@@ -62,9 +75,12 @@
 			);
 			fileSystemSynchronizedGroups = (
 				C804258A2DECBD0F003C4C58 /* TicTacToe */,
+				C85D8B872E129B8500BC1829 /* Modules */,
 			);
 			name = TicTacToe;
 			packageProductDependencies = (
+				C85D8B8B2E129BBB00BC1829 /* TicTacToeAI */,
+				C85D8B992E129BF000BC1829 /* TicTacToeAI */,
 			);
 			productName = TicTacToe;
 			productReference = C80425882DECBD0F003C4C58 /* TicTacToe.app */;
@@ -94,6 +110,9 @@
 			);
 			mainGroup = C804257F2DECBD0F003C4C58;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				C85D8B982E129BF000BC1829 /* XCLocalSwiftPackageReference "Modules/TicTacToeAI" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = C80425892DECBD0F003C4C58 /* Products */;
 			projectDirPath = "";
@@ -339,6 +358,24 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		C85D8B982E129BF000BC1829 /* XCLocalSwiftPackageReference "Modules/TicTacToeAI" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Modules/TicTacToeAI;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C85D8B8B2E129BBB00BC1829 /* TicTacToeAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TicTacToeAI;
+		};
+		C85D8B992E129BF000BC1829 /* TicTacToeAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TicTacToeAI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C80425802DECBD0F003C4C58 /* Project object */;
 }
