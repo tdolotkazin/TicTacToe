@@ -1,4 +1,5 @@
 import SwiftUI
+import TicTacToeViewModel
 
 struct TicTacToeView: View {
     @StateObject private var viewModel = TicTacToeViewModel()

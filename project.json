@@ -1,5 +1,5 @@
 {
     "name": "TicTacToe",
     "sourcesFolder": "TicTacToe",
-    "localPackages": ["Modules/TicTacToeAI"]
+    "localPackages": ["Modules/TicTacToeViewModel"]
 }
